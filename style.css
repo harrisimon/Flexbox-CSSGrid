@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    justify-content: center;
+    /* display: flex; */
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+  }
+  .contact-card{
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    align-items: stretch;
+}
+#ratingbar{
+    background-color: rgb(244, 244, 244);
+    justify-content: center;
+    align-items: center;
+}
+#profilephoto{
+    border-radius: 50%;
+    border: rgb(132, 206, 147) 5px solid;
+    margin: 20px;
+}
+.yellowstar{
+
+    color: rgb(237,215,103) 
+}
+.greystar{
+    color: rgb(205,205,205)	
+}
+#lightgreen{
+    background-color: rgb(133,	207,142	);
+    color: white;
+}
+#darkgreen{
+    background-color: rgb(119,	187	,128	);
+    color: white;
+}
